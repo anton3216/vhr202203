@@ -78,6 +78,7 @@ export default {
       this.$http.deleteRequest('system/basic/dept/' + data.id).then(resp => {
         if (resp) {
           this.initDept()
+          this.$data.dialogFormVisible = false
         }
       })
     }
