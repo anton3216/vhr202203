@@ -4,7 +4,7 @@
     </el-input>
     <el-tree ref="tree" :data="depts" :props="defaultProps" node-key="id" :filter-node-method="filterNode"
              :expand-on-click-node="false">
-      <span class="custom-tree-node" slot-scope="{ node, data }" style="width : 100%">
+      <span class="custom-tree-node" slot-scope="{ node, data }" style="width : 100%;display: flex;justify-content: space-between">
         <span>{{ node.label }}</span>
         <span>
           <el-button size="mini" type="primary" @click="() => append(data)" class="treebutton">

@@ -21,26 +21,26 @@
 </template>
 
 <script>
-  import DeptManager from './basic/DeptManager.vue';
-  import PositionManager from './basic/PositionManager.vue';
-  import JobTitleManager from './basic/JobTitleManager.vue';
-  import RpRules from './basic/RpRules.vue';
-  import PowerGroup from './basic/PowerGroup.vue';
-  export default {
-    name: 'SysBasic',
-    data() {
-      return {
-        activeName: 'positionManager'
-      }
-    },
-    components : {
-      'DeptManager' : DeptManager,
-      'PositionManager' : PositionManager,
-      'JobTitleManager' : JobTitleManager,
-      'RpRules' : RpRules,
-      'PowerGroup' : PowerGroup
+import DeptManager from './basic/DeptManager.vue'
+import PositionManager from './basic/PositionManager.vue'
+import JobTitleManager from './basic/JobTitleManager.vue'
+import RpRules from './basic/RpRules.vue'
+import PowerGroup from './basic/PowerGroup.vue'
+export default {
+  name: 'SysBasic',
+  data () {
+    return {
+      activeName: 'deptManager'
     }
+  },
+  components: {
+    'DeptManager': DeptManager,
+    'PositionManager': PositionManager,
+    'JobTitleManager': JobTitleManager,
+    'RpRules': RpRules,
+    'PowerGroup': PowerGroup
   }
+}
 </script>
 
 <style>
