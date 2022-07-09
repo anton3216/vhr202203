@@ -263,40 +263,40 @@ export default {
   data () {
     return {
       emp: {
-        name: '陈静',
-        gender: '女',
-        birthday: '1989-01-31',
-        beginContract: '1989-01-31',
-        endContract: '1989-01-31',
-        idCard: '421288198902011234',
-        wedlock: '已婚',
-        nationId: 1,
-        nativePlace: '海南',
+        name: '',
+        gender: '',
+        birthday: '',
+        beginContract: '',
+        endContract: '',
+        idCard: '',
+        wedlock: '',
+        nationId: 0,
+        nativePlace: '',
         politicId: 1,
-        email: 'chenjing@qq.com',
-        phone: '18795556693',
-        address: '海南省海口市美兰区',
-        departmentId: 91,
-        jobLevelId: 12,
-        posId: 29,
-        engageForm: '劳动合同',
-        tiptopDegree: '高中',
-        specialty: '市场营销',
-        school: '武汉大学',
+        email: '',
+        phone: '',
+        address: '',
+        departmentId: 0,
+        jobLevelId: 0,
+        posId: 0,
+        engageForm: '',
+        tiptopDegree: '',
+        specialty: '',
+        school: '',
         department: {
-          id: 91
+          id: 0
         },
         nation: {
-          id: 1
+          id: 0
         },
         jobLevel: {
-          id: 12
+          id: 0
         },
         politicsstatus: {
-          id: 1
+          id: 0
         },
         position: {
-          id: 29
+          id: 0
         }
       },
       emps: [],
